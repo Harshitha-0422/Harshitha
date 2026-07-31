@@ -190,31 +190,20 @@ nav a:hover::after{
 =================================================*/
 
 .hero{
-
     min-height:100vh;
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
     text-align:center;
-
-    position:relative;
-
+    padding:0 10%;
 }
 
 
 
 .hero-content{
-
     max-width:900px;
-
-    z-index:2;
-
+    margin:auto;
 }
-
 
 
 .welcome{
@@ -230,13 +219,10 @@ nav a:hover::after{
 
 
 .hero h1{
-
-    font-size:70px;
-
+    font-size:4rem;
+    margin:20px 0;
     line-height:1.2;
-
-    margin-bottom:20px;
-
+    text-align:center;
 }
 
 
@@ -255,12 +241,11 @@ nav a:hover::after{
 
 .hero-description{
 
-    font-size:18px;
-
-    color:#cbd5e1;
-
+    max-width:750px;
+    margin:20px auto;
     line-height:1.8;
-
+    font-size:18px;
+    color:#bdbdbd;
 }
 
 
@@ -270,11 +255,13 @@ nav a:hover::after{
 =================================================*/
 
 .hero-buttons{
-
-    margin-top:40px;
-
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    margin-top:35px;
+    flex-wrap:wrap;
 }
-
 
 
 .btn{
