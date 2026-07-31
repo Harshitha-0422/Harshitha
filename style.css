@@ -992,3 +992,51 @@ section{
 }
 
 }
+
+/*==========================
+    Scroll Animation
+==========================*/
+
+.hidden{
+
+opacity:0;
+
+transform:translateY(80px);
+
+transition:.8s ease;
+
+}
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+
+/*==========================
+Active Navbar
+==========================*/
+
+nav ul li a.active{
+
+color:#3B82F6;
+
+}
+
+
+
+/*==========================
+Selection
+==========================*/
+
+::selection{
+
+background:#2563EB;
+
+color:white;
+
+}
