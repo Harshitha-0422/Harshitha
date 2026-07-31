@@ -219,10 +219,13 @@ nav a:hover::after{
 
 
 .hero h1{
-    font-size:4rem;
-    margin:20px 0;
-    line-height:1.2;
-    text-align:center;
+
+font-size:64px;
+
+text-align:center;
+
+margin:20px 0;
+
 }
 
 
