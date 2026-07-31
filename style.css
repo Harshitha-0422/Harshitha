@@ -265,32 +265,20 @@ nav a:hover::after{
 
 
 .btn{
-
-    display:inline-block;
-
-    padding:15px 40px;
-
-    border-radius:40px;
-
+    padding:15px 35px;
+    border-radius:50px;
     background:#2563eb;
-
+    color:white;
+    text-decoration:none;
     transition:.4s;
-
-    margin:10px;
-
-    font-weight:600;
-
 }
-
-
 
 .btn:hover{
-
-    transform:translateY(-8px);
-
-    box-shadow:0 0 30px #2563eb;
-
+    transform:translateY(-5px) scale(1.05);
+    box-shadow:0 0 25px #2563eb;
 }
+
+
 
 
 
@@ -388,7 +376,7 @@ nav a:hover::after{
             ABOUT
 =================================================*/
 
-.about-card{
+/* .about-card{
 
     background:#111827;
 
@@ -414,7 +402,7 @@ nav a:hover::after{
 
     box-shadow:0 0 35px rgba(37,99,235,.35);
 
-}
+} */
 
 /*=================================================
             EDUCATION
@@ -1026,4 +1014,32 @@ background:#2563EB;
 
 color:white;
 
+}
+
+.about-card{
+    max-width:900px;
+    margin:auto;
+    padding:40px;
+    background:#141b2d;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:20px;
+    transition:.4s;
+}
+
+.about-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 35px rgba(0,140,255,.35);
+    border-color:#3b82f6;
+}
+
+.about-card h2{
+    margin-bottom:20px;
+    font-size:36px;
+    text-align:center;
+}
+
+.about-card p{
+    color:#d5d5d5;
+    line-height:1.9;
+    text-align:center;
 }
